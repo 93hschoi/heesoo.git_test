@@ -1,43 +1,44 @@
-¾È³çÇÏ¼¼¿ä
+ì•ˆë…•í•˜ì„¸ìš”
 
-github »ç¿ë¹ıÀÔ´Ï´Ù.
+github ì‚¬ìš©ë²•ì…ë‹ˆë‹¤.
 
-git¿¡ Á¢¼Ó
+gitì— ì ‘ì†
 : git init
 
-git ÀúÀå¼Ò¿¡ ¿¬°á
+git ì €ì¥ì†Œì— ì—°ê²°
 : git remote add origin 'repository address'
 
-git ÀúÀå¼Ò·Î ÀÚ·á ¿Ã¸®±â
+git ì €ì¥ì†Œë¡œ ìë£Œ ì˜¬ë¦¬ê¸°
 : git push origin master
 
-git ÀúÀå¼Ò¿¡¼­ ÀÚ·á °¡Á®¿À±â
+git ì €ì¥ì†Œì—ì„œ ìë£Œ ê°€ì ¸ì˜¤ê¸°
 : git pull origin master
 
-git ½ÌÅ©»óÅÂ ¿¬°áÃ¼Å©
+git ì‹±í¬ìƒíƒœ ì—°ê²°ì²´í¬
 : git status
 
-local folderÀÇ º¯°æ»çÇ×µéÀ» ¸ğµÎ tracking!
+local folderì˜ ë³€ê²½ì‚¬í•­ë“¤ì„ ëª¨ë‘ tracking!
 : git add . 
 
-gitº¯°æ»çÇ×¿¡ ÁÖ¼®´Ş±â
+gitë³€ê²½ì‚¬í•­ì— ì£¼ì„ë‹¬ê¸°
 : git commit -m"message"
 
-<push°úÁ¤>
+<pushê³¼ì •>
 git init
 git status
 git add . 
 git commit -m "message"
 git push origin master
 
-<pull°úÁ¤>
+<pullê³¼ì •>
 git init
-git remote add origin '°¡Á®¿Ã gitÁÖ¼Ò'
+git remote add origin 'ê°€ì ¸ì˜¬ gitì£¼ì†Œ'
 git pull origin master
 
 
-* Ç×»ó ÀúÀå¼Ò¿¡¼­ º¯°æµÈ ÆÄÀÏµéÀÌ ÀÖ´Ù¸é ±× ÆÄÀÏµéÀ» ¸ğµÎ pullÇÑÈÄ¿¡ ³»ÀÚ·áµéÀ»
-  push°¡´É
-* pushÀü¿£ pullÀÌ ÀÖ´Ù!!!
+* í•­ìƒ ì €ì¥ì†Œì—ì„œ ë³€ê²½ëœ íŒŒì¼ë“¤ì´ ìˆë‹¤ë©´ ê·¸ íŒŒì¼ë“¤ì„ ëª¨ë‘ pullí•œí›„ì— ë‚´ìë£Œë“¤ì„
+  pushê°€ëŠ¥
+* pushì „ì—” pullì´ ìˆë‹¤!!!
+* ì €ì¥ì†Œì—ì„œ ë³€ê²½ê°€ëŠ¥, ê¼­ pull í•´ë†“ê¸°!
 
 
